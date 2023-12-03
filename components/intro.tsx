@@ -89,7 +89,7 @@ export default function Intro() {
         <a
           href="/CV.pdf"
           download={true}
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition borderBlack"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition borderBlack dark:bg-white/10"
         >
           Download CV{" "}
           <HiDownload className=" opacity-60 group-hover:translate-y-1 transition" />
@@ -97,14 +97,14 @@ export default function Intro() {
         <a
           title="Linkedin"
           href="https://www.linkedin.com/in/yh627/"
-          className="bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition borderBlack"
+          className="bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
         <a
           title="Github"
           href="https://github.com/AriPeap"
-          className="bg-white p-4 flex text-gray-700 items-center gap-2 text-[1.25rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition borderBlack"
+          className="bg-white p-4 flex text-gray-700 items-center gap-2 text-[1.25rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />
         </a>
